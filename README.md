@@ -1,2 +1,16 @@
-# groundctrl-chat
-Messing around with React by building a simple chat
+# Playground Chat
+
+Quick start:
+
+```
+$ npm install
+$ npm run build
+````
+
+## Development
+
+Run Webpack in watch-mode to continually compile the JavaScript as you work:
+
+```
+$ npm run watch
+```
