@@ -1,5 +1,5 @@
 :root {
-    --main-color: #101010;
+    --main-color: #101010 ;
     --secondary-color: #1d1d1d;
     --main-text-color: #e0e0e0;
     --secondary-text-color: #8b8b8b;
@@ -13,7 +13,7 @@ html, body {
     padding: 0;
     font-family: system-ui;
     font-weight: 200;
-    color: 	#3e5869; 
+    color: 	#ef353e; 
 }
 
 #root {
@@ -82,7 +82,7 @@ html, body {
  }
 
 .rooms-list .room.active a {
-    color: var(--secondary-color);
+    color: var(--main-text-color);
 }
 
 .new-room-form {
@@ -138,7 +138,7 @@ html, body {
 }
 .message .message-text {
     background: var(--main-color);
-    color: var(--secondary-color);
+    color: var(--main-text-color);
     display: inline;
     padding: 4px 8px;
     border-radius: 8px;
@@ -169,11 +169,12 @@ html, body {
 
 .send-message-form input {
     width: 100%;
-    padding: 15px 10px;
+    padding: 30px 10px;
     margin: 0;
     border-style: none;
     background: var(--send-message-form);
     font-weight: 200;
+    color: var(--secondary-text-color);
 
 }
 
